@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Analytics Event Tracking Dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Web Analytics Event Tracking Dashboard</h1>
+
+  <div class="dashboard">
+
+    <div class="card">
+      <h2>Page Visits</h2>
+      <p id="visits">0</p>
+    </div>
+
+    <div class="card">
+      <h2>Button Clicks</h2>
+      <p id="clicks">0</p>
+    </div>
+
+    <div class="card">
+      <h2>Scroll Tracking</h2>
+      <p id="scroll">0%</p>
+    </div>
+
+    <div class="card">
+      <h2>Time Spent</h2>
+      <p id="time">0 sec</p>
+    </div>
+
+    <div class="card">
+      <h2>Total Events</h2>
+      <p id="events">0</p>
+    </div>
+
+  </div>
+
+  <button id="trackBtn">Track Interaction</button>
+
+  <h2>User Login</h2>
+
+  <form id="loginForm">
+
+    <input type="text" id="username" placeholder="Enter Username" required>
+
+    <button type="submit">Login</button>
+
+  </form>
+
+  <p id="welcome"></p>
+
+  <form id="signupForm">
+
+    <input type="email" placeholder="Enter Email" required>
+
+    <button type="submit">Subscribe</button>
+
+  </form>
+
+  <h2>Live Event Logs</h2>
+
+  <div id="logs"></div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
